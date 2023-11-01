@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.font-nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.text-xs {
+    font-size: 10px;
+}
+
+.text-sm {
+    font-size: 20px;
+}
+
+.text-md {
+    font-size: 30px;
+}
+
+.text-lg {
+    font-size: 40px;
+}
+
+.text-xl {
+    font-size: 50px;
+}
+
+.text-2xl {
+    font-size: 60px;
+}
+
+.text-3xl {
+    font-size: 70px;
+}
+
+.font-bold-xs {
+    font-weight: 100;
+}
+
+.font-bold-sm {
+    font-weight: 200;
+}
+
+.font-bold-md {
+    font-weight: 300;
+}
+
+.font-bold-lg {
+    font-weight: 400;
+}
+
+.font-bold-xl {
+    font-weight: 500;
+}
+
+.font-bold-2xl {
+    font-weight: 600;
+}
+
+.font-bold-3xl {
+    font-weight: 700;
+}
+
+.font-bold-4xl {
+    font-weight: 800;
+}
+
+.font-bold-5xl {
+    font-weight: 900;
+}
+
+.tracking-tighter {
+    letter-spacing: -0.05rem;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-purple-1 {
+    color: #a723ff;
+}
+
+.text-purple-2 {
+    color: #b756f8;
+}
+
+.text-purple-3 {
+    color: #ca7bff;
+}
+
+.text-purple-4 {
+    color: #f18bff;
+}
+

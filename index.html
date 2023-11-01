@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/font.css">
+    <link rel="stylesheet" href="src/debug.css">
+    <title>Portfolio - Ziyad</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#home_page" class="nav-title font-nunito text-white text-md">
+                Portfolio
+            </a>
+            <div class="nav-button">
+                <a href="#about_me">
+                    About Me
+                </a>
+                <a href="#educations">
+                    Educations
+                </a>
+                <a href="#experiences">
+                    Experiences
+                </a>
+                <a href="#interests">
+                    Interests
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="home_page">
+            <div class="circle_1"></div>
+            <div class="circle_2"></div>
+            <div class="home">
+                <article>
+                    <h1 class="font-nunito text-white text-sm">
+                        Hello, 
+                        <span class="tracking-tighter font-bold-md">Nama saya adalah..</span>
+                    </h1>
+                    <h2 class="font-nunito text-white text-xl tracking-tighter" id="nama">
+                        Ziyad Jahizh Kartiwa
+                    </h2>
+                    <h3 class="font-nunito text-white text-sm font-bold-md">
+                        Informatics Engineering, <span class="font-bold-2xl">STMIK Bandung</span>
+                    </h3>
+                </article>
+                <aside>
+                    <img id="foto_profil" src="./src/img/ziyad.jpg" alt="">
+                </aside>
+            </div>
+        </div>
+        <div id="about_me">
+            <div class="circle"></div>
+            <div class="about_me_page">
+                <img id="foto_1" src="https://blush.design/api/download?shareUri=Q2y4_D3RU18D6o1p&c=Hair_0%7E3164cf-0.1%7E150656_Rainbow_0%7E77cffb-0.1%7E008bf7_Skin_0%7E5e0606-0.1%7Eef9e89&w=800&h=800&fm=png" alt="">
+                <article>
+                    <h1 class="font-nunito text-white text-lg text-purple-2">
+                        About me
+                    </h1>
+                    <p class="font-nunito text-white text-sm">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis nemo ex consequuntur quam eius consectetur inventore rerum assumenda nobis dolor cumque, repellat quas quasi quidem blanditiis totam nam quaerat tempora!
+                    </p>
+                </article>
+            </div>
+        </div>
+        <div id="educations">
+            <div class="circle"></div>
+            <div class="" id="educations_page">
+                <aside>
+                    <div class="bg"></div>
+                    <button onclick="showEducations('smp')">
+                        SMP
+                    </button>
+                    <button onclick="showEducations('smk')">
+                        SMK
+                    </button>
+                    <button onclick="showEducations('univ')">
+                        University
+                    </button>
+                </aside>
+                <article id="smp">
+                    <img id="foto_educations" src="https://foto.data.kemdikbud.go.id/getImage/20219344/2.jpg" alt="">
+                    <div>
+                        <h1 class="font-nunito text-white text-purple-4 my-5">
+                            SMP Negeri 20 Bandung
+                        </h1>
+                        <p class="font-nunito tracking-tighter text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quos deserunt, quia sint optio, itaque quo atque quam dignissimos nemo possimus unde praesentium sed minus id totam sapiente aperiam repellat!
+                        </p>
+                    </div>
+                </article>
+                <article id="smk">
+                    <img id="foto_educations" src="https://majalahsora.com/wp-content/uploads/2016/06/smk-pu.jpg" alt="">
+                    <div>
+                        <h1 class="font-nunito text-purple-4 text-lg">
+                            SMK PU Negeri Bandung
+                        </h1>
+                        <h2 class="font-nunito text-white text-sm" style="margin-bottom: 20px;">
+                            Teknik Komputer dan Jaringan
+                        </h2>
+                        <p class="font-nunito tracking-tighter text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quos deserunt, quia sint optio, itaque quo atque quam dignissimos nemo possimus unde praesentium sed minus id totam sapiente aperiam repellat!
+                        </p>
+                    </div>
+                </article>
+                <article id="univ">
+                    <img id="foto_educations" src="https://www.stmik-bandung.ac.id/core/public/assets/img/bg-img/stmikbdg-bg1.jpg" alt="">
+                    <div>
+                        <h1 class="font-nunito text-purple-4 text-lg">
+                            STMIK Bandung
+                        </h1>
+                        <h2 class="font-nunito text-white text-sm" style="margin-bottom: 20px;">
+                            Teknik Informatika
+                        </h2>
+                        <p class="font-nunito tracking-tighter text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quos deserunt, quia sint optio, itaque quo atque quam dignissimos nemo possimus unde praesentium sed minus id totam sapiente aperiam repellat!
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="" id="experiences">
+            <div class="experiences__circle"></div>
+            <div class="experiences_title">
+                <article>
+                    <h1 class="text-purple-4 font-nunito tracking-tighter text-md my-5">
+                        Here's my Experiences..
+                    </h1>
+                    <div class="experiences_lists">
+                        <div class="experiences-card">
+                            <div class="experiences_img">
+                                <img src="https://logodownload.org/wp-content/uploads/2019/10/adobe-photoshop-logo-0.png" alt="">
+                            </div>
+                            <h1>
+                                Packaging Design
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nisi mollitia earum consectetur quam, dolores dicta expedita harum animi praesentium soluta obcaecati optio minus recusandae aperiam fugiat illum eaque officiis.
+                            </p>
+                        </div>
+                        <div class="experiences-card">
+                            <div class="experiences_img">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Microsoft_Excel_2013-2019_logo.svg/1200px-Microsoft_Excel_2013-2019_logo.svg.png" alt="">
+                            </div>
+                            <h1>
+                                Excel VBA
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nisi mollitia earum consectetur quam, dolores dicta expedita harum animi praesentium soluta obcaecati optio minus recusandae aperiam fugiat illum eaque officiis.
+                            </p>
+                        </div>
+                        <div class="experiences-card">
+                            <div class="experiences_img">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="">
+                            </div>
+                            <h1>
+                                Web Programming
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nisi mollitia earum consectetur quam, dolores dicta expedita harum animi praesentium soluta obcaecati optio minus recusandae aperiam fugiat illum eaque officiis.
+                            </p>
+                        </div>
+                        <div class="experiences-card">
+                            <div class="experiences_img">
+                                <img src="https://static.vecteezy.com/system/resources/previews/024/555/159/original/cisco-logo-transparent-free-png.png" alt="">
+                            </div>
+                            <h1>
+                                Networking
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nisi mollitia earum consectetur quam, dolores dicta expedita harum animi praesentium soluta obcaecati optio minus recusandae aperiam fugiat illum eaque officiis.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="" id="interests">
+            <div class="circle-b-center"></div>
+            <div class="interests-page">
+                <article>
+                    <h1 class="font-nunito text-purple-4">
+                        I have a lot of interests..
+                    </h1>
+                    <div class="interests-lists">
+                        <button class="interests-card">
+                            <img class="interests-card-logo" src="https://cdn-icons-png.flaticon.com/128/1374/1374723.png" alt="">
+                            <div class="interests-card-bg"></div>
+                            <div class="interests-card-body">
+                                <h1>
+                                    Playing Games
+                                </h1>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus rem culpa ullam exercitationem veritatis
+                                </p>
+                            </div>
+                        </button>
+                        <button class="interests-card">
+                            <img class="interests-card-logo" src="https://cdn-icons-png.flaticon.com/128/480/480732.png" alt="">
+                            <div class="interests-card-bg"></div>
+                            <div class="interests-card-body">
+                                <h1>
+                                    Programming
+                                </h1>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus rem culpa ullam exercitationem veritatis
+                                </p>
+                            </div>
+                        </button>
+                        <button class="interests-card">
+                            <img class="interests-card-logo" src="https://cdn-icons-png.flaticon.com/128/5832/5832416.png" alt="">
+                            <div class="interests-card-bg"></div>
+                            <div class="interests-card-body">
+                                <h1>
+                                    Reading Manhwas
+                                </h1>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus rem culpa ullam exercitationem veritatis
+                                </p>
+                            </div>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1 class="font-nunito text-sm tracking-tighter font-bold-md">
+           ZiyadZK - Portfolio. 
+        </h1>
+    </footer>
+<script src="/src/script.js"></script>
+</body>
+</html>
